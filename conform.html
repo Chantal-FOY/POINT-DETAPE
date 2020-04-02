@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Formulaire de Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"-->
+  <!--link rel="stylesheet" href="css/styleconform.css"-->
+  <link rel="stylesheet" href="css/maquette.css">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/css/bootstrap.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="images/logo.png" alt="logo" width="105">
+      <img src="images/images.png" alt="industrial" width="300">
+      <!--form action="search">
+      <div class="search">
+        <input type="search" />
+        <button type="submit">Search</button>
+      </div>
+    </form-->
+      <div class="form-group">
+        <input type="search" class="form-control" id="search" placeholder="Recherche">
+        <button type="button" class="btn btn-info mb-2">search</button>
+      </div>
+    </header>
+    <!--div class="navbar">
+    <a href="maquette.html" class="navlink">Home</a>
+    <a href="about.html" class="navlink">About</a>
+    <a href="conform.html" class="navlink">Contact</a>
+  </div-->
+    <!--h1>Navigation</h1-->
+    <nav>
+      <ul class="nav justify-content-end navbar-expand navbar-dark bg-dark">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="annuaire.html">Phone book</a>
+        </li>
+      </ul>
+    </nav>
+    <!--h1>Formulaires</h1-->
+    <form>
+      <fieldset>
+        <legend>Contacter </legend>
+        <div class="form-group">
+          <label for="nom">Entrez votre nom</label>
+          <input type="text" class="form-control" id="nom" placeholder="Paul MARTIN">
+        </div>
+        <div class="form-group">
+          <label for="email">Entrez votre mail</label>
+          <input type="email" class="form-control" id="email" placeholder="paul.martin@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="selection">Pays</label>
+          <select id="selection" class="form-control">
+            <option value="">Liste de choix...</option>
+            <optgroup label="Europe">
+              <option value="">France</option>
+              <option value="">Espagne</option>
+              <option value="">Angleterre</option>
+            </optgroup>
+            <optgroup label="Afrique">
+              <option value="">Côte d'Ivoire</option>
+              <option value="">Cameroun</option>
+            </optgroup>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="bio">Message</label>
+          <textarea class="form-control" id="bio" rows="3">
+          </textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="cgu" required>
+            <label class="form-check-label" for="cgu">J'accepte les conditions générales d'utilisation et de vente</label>
+            <div class="invalid-feedback">Vous devez accepter les CGU pour continuer</div>
+          </div>
+        </div>
+      </fieldset>
+      <button class="btn btn-primary" type="submit">Envoyer</button>
+    </form>
+    
+    <!--form class="formulairediv" action="/formulaire" method="POST">
+    <div class="formulaire">
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="user_name" minlength="2" maxlength="25" required>
+    </div>
+    <div class="formulaire">
+      <label for="prenom">Prenom :</label>
+      <input type="text" id="prenom" name="user_prenom" minlength="2" maxlength="25" required>
+    </div>
+    <div class="champ">
+      <label for="age">Age :</label>
+      <input type="number" id="age" name="age" min="16" max="99">
+    </div>
+    <div class="formulaire">
+      <label for="mail">Mail :</label>
+      <input type="email" id="mail" name="user_mail">
+    </div>
+    <div class="champ">
+      <label for="objet">Objet :</label>
+      <input type="text" id="objet" name="objet" maxlength="30">
+    </div>
+    <fieldset>
+      <legend>Experiences</legend>
+      <div class="champ">
+        <textarea name="exp" placeholder="Vos experiences pro" maxlength="500">
+        </textarea>
+      </div>
+    </fieldset>
+    <div class="formulaire">
+      <label for="msg">Message :</label>
+      <textarea id="msg" name="user_message">
+      </textarea>
+    </div>
+    <div class="button">
+      <button type="submit">Envoyer</button>
+      <button type="submit">Annuler</button>
+    </div>
+  </form-->
+    <br>
+    <!--section class="collumns">
+  <article class="collumn">
+    <img src="images/img4.jpg" alt="img1" class="imgcollumn">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </article>
+  <article class="collumn">
+    <img src="images/img3.jpg" alt="img1" class="imgcollumn">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </article>
+  <article class="collumn">
+    <img src="images/img1.jpg" alt="img1" class="imgcollumn">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </article>
+  <article class="collumn">
+    <img src="images/img2.jpg" alt="img1" class="imgcollumn">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+  </article>
+</section-->
+    <footer>
+      <ul>
+        <li>
+          <a href="mentionLegale.html" class="wlink">Mentions légales</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  
+</body>
+</html>

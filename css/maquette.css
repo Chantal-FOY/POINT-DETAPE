@@ -1,0 +1,166 @@
+.mention
+{
+/*ajout Chantal*/
+margin:auto;
+/*float:center;*/
+/*position:relative;*/
+border: black solid 2px;
+border-radius: 10px;
+padding: 10px ;
+width:500px;
+background-color: white;
+margin-top: 25px;
+/*ajout Chantal*/
+margin-bottom:25px;
+}
+
+
+/* rajout par Chantal pour bien placer le formulaire recherche*/
+video
+{
+    height:300px;
+}
+div.search
+{
+  position:right;
+}
+body
+{
+    /*ajout par Chantal*/
+    background-color:white;
+    padding: 2px;
+}
+img /* ajouté par Chantal*/
+{
+    border-radius: 1em;
+}
+header
+{
+    padding-top: 25px;
+    display: inline-flex;
+    /* margin:top;*/
+
+}
+.search
+{
+    display: inline-flex;
+    vertical-align: top;
+    /*margin-left: 910px;*/
+    margin-left: 700px;
+
+}
+.navbar
+{
+    background-color : royalblue;
+    border: black solid 1px;
+    padding: 25px;
+}
+.navlink
+{
+    padding: 20px;
+}
+
+.block1
+{
+    background-color: #242424;
+    display: inline-flex;
+    width: 100%;
+}
+.image1
+{
+    margin-left: 200px;
+}
+.collumn
+{
+    text-align:center;
+    width:auto;
+}
+.collumns
+{
+    column-count: 4;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.imgcollumn
+{
+    width: 200px;
+}
+footer
+{
+    background-color:royalblue;
+    padding: 10px;
+}
+.wlink
+{
+    color: white;
+}
+.textblock1
+{
+    color: white;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding: 10px;
+}
+.textblock2
+{
+    margin-left: 15px;
+    padding: 10px;
+    color: white;
+}
+a
+{
+    color: white;
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+}
+/*ajout par Chantal*/
+p
+{
+    text-align: justify;
+}
+.container
+{
+display: flex;
+flex-direction: column;
+justify-content:center;
+/*border: 2px solid rgb(240, 7, 7);*/
+}
+.green
+{
+    background-color:greenyellow;
+}
+
+.col-md-3:nth-child(1)
+{
+    background-color:rgb(58, 191, 231);
+    /*background-image:url("localhost*//*Maquette*//*images*//*image2.jpg");*/
+}
+.col-md-3:nth-child(2)
+{
+    background-color:whitesmoke;
+    /*background-image:url(localhost*//*Maquette*//*images*//*image3.jpg);*/
+}
+.col-md-3:nth-child(3)
+{
+    background-color:rgb(58, 191, 231);
+    /*background-image:url(localhost*//*Maquette*//*images*//*image.jpg);*/
+
+}
+.col-md-3:nth-child(4)
+{
+    background-color:whitesmoke;
+    /*background-image:url(localhost*//*Maquette*//*images*//*image4.jpg);*/
+}
+/*ajout pour index.js et index.html pour enlever les articles au survol du curseur - Chantal*/
+.hidden {
+    display: none;
+  }
+.big{
+    size:50%; 
+}
+
+
+

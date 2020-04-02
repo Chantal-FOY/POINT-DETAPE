@@ -1,0 +1,66 @@
+.formulairediv
+{
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    box-shadow: gray 5px 5px 5px;
+    margin-top: 1em;
+    background-color: red; 
+    
+}
+
+.formulaire 
+{
+    margin-top: 1em; 
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+label
+{
+    display: inline-block;
+    /*width: 90px;*/
+    text-align: right;
+}
+
+input, textarea
+{
+    width: 100px;
+    box-sizing: border-box;
+    border: #999 solid 1px;
+    border-radius: 2px;
+}
+
+input:focus, textarea:focus
+{
+    border-color: #000;
+}
+
+textarea
+{
+    vertical-align: top;
+    height: 5em;
+}
+
+.button
+{
+    padding-left: 90px;
+    margin-top: 10px;
+}
+
+button
+{
+    margin-left: .5em;
+}
+
+body
+{
+    background-color: chocolate;
+}
+
+.champ 
+{
+    margin-bottom: 10px;     
+}

@@ -1,0 +1,27 @@
+.mention
+{
+/*ajout Chantal*/
+margin:auto;
+/*float:center;*/
+/*position:relative;*/
+border: black solid 2px;
+border-radius: 10px;
+padding: 10px ;
+width:500px;
+background-color: white;
+margin-top: 25px;
+/*ajout Chantal*/
+margin-bottom:25px;
+}
+
+body
+{
+    background-color: whitesmoke;
+}
+
+.lien
+{
+    color: blue;
+}
+
+
