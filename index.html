@@ -12,13 +12,17 @@
 <body>
   <div class="container">
     <header>
-      <img src="images/logo.png" alt="logo" width="105" id="big">
-      <img src="images/images.png" alt="industrial" width="300" id="articles">
 
-      <div class="form-group">
-        <input type="search" class="form-control" id="search" placeholder="Recherche">
-        <button type="button" class="btn btn-info mb-2">search</button>
-      </div>
+        <div class="form-group">
+          <img src="images/logo.png" alt="logo" width="105" id="big">
+          <img src="images/images.png" alt="industrial" width="300" id="articles">
+        </div>
+
+        <div class="form-group">
+          <input type="search" class="form-control" id="search" placeholder="Recherche">
+          <button type="button" class="btn btn-info mb-2">search</button>
+        </div>
+
     </header>
     <!--h1>Navigation</h1-->
     <nav>
@@ -38,19 +42,25 @@
       </ul>
     </nav>
 
-    <section class="block1">
-      <img class="image1" src="images/image1.jpg" alt="image1">
-      <div class="buttons">
-      </div>
-      <div>
-        <h1 class="textblock1">INDUSTRIAL
-          <br>AND COMMERCIAL
-          <br>EQUIPMENT!</h1>
-        <h4 class="textblock2">USE OUR EXPERTISE AND EFFECIENCY
-          <br>TO CREATE CUSTOM SOLUTIONS TO FIT
-          <br>YOUR NEEDS AND BUDGET</h4>
-      </div>
-    </section>
+    <div class="row">
+      <section class="block1">
+        <div class="col-md-6">
+          <!--div class="img-responsive"--> 
+            <img class="image1" src="images/image1.jpg" alt="image1">
+            </div>
+        <!--/div-->
+
+        <div class="col-md-6">
+          <h1 class="textblock1">INDUSTRIAL
+            <br>AND COMMERCIAL
+            <br>EQUIPMENT!</h1>
+          <h4 class="textblock2">USE OUR EXPERTISE AND EFFECIENCY
+            <br>TO CREATE CUSTOM SOLUTIONS TO FIT
+            <br>YOUR NEEDS AND BUDGET</h4>
+        </div>
+      </section>
+    </div>
+
 
     <div class="row">
       <!--article class="col-xs-12 col-sm-12 col-md-3 col-lg-3-->
